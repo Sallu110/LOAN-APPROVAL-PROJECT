@@ -8,6 +8,7 @@ Introduction
 Data Preprocessing
 Model Training
 Evaluation
+Results 
 Conclusion
 
 # Introduction
@@ -15,6 +16,7 @@ In this project, I use a logistic regression model to predict whether a loan app
 
 # Data Preprocessing
 Import Libraries: Import pandas for data handling:
+
 # import pandas as pd
 Read and Clean Data: Read the dataset and handle missing values by dropping rows with NaN values:
 
@@ -41,10 +43,11 @@ Y = loanprep[['status_Y']]
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=1234, stratify=Y)
 Build Logistic Regression Model: Train the logistic regression model using scikit-learn:
 
-from sklearn.linear_model import LogisticRegression
+# from sklearn.linear_model import LogisticRegression
 lr = LogisticRegression()
 lr.fit(X_train, Y_train)
-Evaluation
+
+# Evaluation
 Confusion Matrix: Evaluate the model performance using a confusion matrix:
 
 # from sklearn.metrics import confusion_matrix
@@ -53,6 +56,14 @@ cm = confusion_matrix(Y_test, y_predict)
 Model Score: Calculate the accuracy score of the model:
 
 score = lr.score(X_test, Y_test)
+
+# RESULTS 
+
+![Screenshot 2024-07-18 172517](https://github.com/user-attachments/assets/eef35ad0-244c-4d1a-87b9-7ee6f21305b5)
+
+![Screenshot 2024-07-18 172548](https://github.com/user-attachments/assets/75ad3240-d7b5-4b22-acdb-a33515d05009)
+
+
 # Conclusion
 This project demonstrates the use of logistic regression for predicting loan approval status based on applicant features. The model's performance is evaluated using accuracy metrics and confusion matrix analysis.
 
