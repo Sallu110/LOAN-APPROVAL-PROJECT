@@ -3,7 +3,7 @@
 # Loan Approval Project
 This project focuses on predicting loan approval status based on various applicant features using logistic regression.
 
-# steps of project
+# "steps of project"
 Introduction
 Data Preprocessing
 Model Training
