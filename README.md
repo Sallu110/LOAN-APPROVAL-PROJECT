@@ -4,14 +4,20 @@ This project focuses on predicting loan approval status based on various applica
 
 ## Steps of project
 1. Introduction
-2. Data Preprocessing
-3. Model Training
-4. Evaluation
-5. Results 
-6. Conclusion
+2. Dataset
+3. Data Preprocessing
+4. Model Training
+5. Evaluation
+6. Results 
+7. Conclusion
 
 ### Introduction
 In this project, I use a logistic regression model to predict whether a loan application will be approved based on applicant information such as income, loan amount, credit history, etc.
+
+### Dataset
+
+![Screenshot 2024-08-11 103337](https://github.com/user-attachments/assets/8b425d25-fef1-45cf-aff7-63b20f3baeda)
+
 
 ### Data Preprocessing
 Import Libraries: Import pandas for data handling:
